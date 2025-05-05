@@ -100,7 +100,7 @@ span {
 .home-img image1 {
     width: 100;
     animation: floatImage 4s ease-in-out infinite;
-    border-radius: 200px;
+    border-radius: 400px;
 }
 
 @keyframes floatImage {
