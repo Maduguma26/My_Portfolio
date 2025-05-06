@@ -170,7 +170,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: #0c0916;
+    background:var(--snd-bg-color);
 }
 
 .about-img img {
@@ -239,16 +239,23 @@ span {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    width: 50rem;
+    margin: 0 auto;
+    
+    
 }
-
+.education{
+    background: #182144;
+}
 .education-container .education-box{
     flex: 1 1 30rem;
-    background: var(--snd-bg-color);
+    background:var(--snd-bg-color) ;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
     border: .02rem solid var(--bg-colour);
     transition: .5s ease;
+    
 }
 
 .education-container .education-box:hover {
@@ -270,9 +277,6 @@ span {
     margin: 1rem 0 3rem;
 }
 
-.certifications {
-    background: var(--snd-bg-color);
-}
 
 .certifications h2 {
     margin-bottom: 4rem;
@@ -343,7 +347,53 @@ span {
     color: #fff;
     border-radius: 50%;
 }
+.skills{
+    background: #182144;
+}
 
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skills-container .skills-box{
+    flex: 1 1 30rem;
+    background: var(--snd-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: left;
+    
+    border: .02rem solid var(--bg-colour);
+    transition: .5s ease;
+}
+
+.skills-container .skills-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.skills-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+    align-content: center;
+}
+
+.skills-box h3 {
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.skills-box p {
+    font-size: 2rem;
+    margin: 1rem 0 3rem;
+}
+
+.contact {
+    background: var(--bg-colour);
+}
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -437,11 +487,19 @@ span {
         padding: 2rem 3%;
     }
 
-    .services {
+    .experience {
         padding-bottom: 7rem;
     }
 
-    .portfolio {
+    .certifications {
+        padding-bottom: 7rem;
+    }
+
+    .education {
+        padding-bottom: 7rem;
+    }
+
+    .skills {
         padding-bottom: 7rem;
     }
 
@@ -503,21 +561,29 @@ span {
         margin-top: 4rem;
     }
 
-    .services h2 {
+    .experience h2 {
         margin-bottom: 3rem;
     }
 
-    .portfolio h2 {
+    .education h2 {
         margin-bottom: 3rem;
     }
 
-    .portfolio-container {
+    .skills h2 {
+        margin-bottom: 3rem;
+    }
+
+    .certifications h2 {
+        margin-bottom: 3rem;
+    }
+
+    .certifications-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 617px) {
-    .portfolio-container {
+    .certifications-container {
         grid-template-columns: 1fr;
     }
 }
