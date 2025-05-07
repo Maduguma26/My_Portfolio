@@ -407,21 +407,30 @@ span {
     border-radius: .5rem;
     z-index: var(--text-color);
   }
-  .skills-html {
-    width: 95%;
-  }
-  .skills-css {
-    width: 85%;
-
-  }
-  .skills-js {
+  .skills-front {
     width: 65%;
   }
-  .skills-ux {
-    width: 85%;
+  .skills-java {
+    width: 60%;
+
+  }
+  .skills-py {
+    width: 55%;
+  }
+  .skills-cs {
+    width: 50%;
+  }
+.skills-sql {
+    width: 70%;
+  }
+.skills-analysis {
+    width: 80%;
   }
   .skills-img {
     border-radius: 0.5rem;
+  }
+.skills-personal {
+    width: 95%;
   }
 
   .skills-percentage{
