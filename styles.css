@@ -98,9 +98,13 @@ span {
 }
 
 .home-img img {
-    width: 50;
+    width: 50px;
+    max-width: 100%;
+    height: auto;
     animation: floatImage 4s ease-in-out infinite;
-    border-radius: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 @keyframes floatImage {
