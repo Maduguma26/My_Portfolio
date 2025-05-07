@@ -1,7 +1,9 @@
 🚀 Konanani Maduguma – Portfolio Website
+
 Welcome to the source code of my personal portfolio website! This project showcases my background, technical skills, certifications, experience, and contact information. It's designed to give recruiters and potential collaborators a quick overview of who I am and what I bring to the table.
 
 📌 Overview
+
 👉 This is a responsive, multi-section portfolio built with HTML, CSS, and Font Awesome icons. It features:
 
 👉 A clean and modern design
