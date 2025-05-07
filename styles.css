@@ -98,7 +98,7 @@ span {
 }
 
 .home-img img {
-    width: 100px;
+    width: 150px;
     max-width: 100%;
     height: auto;
     animation: floatImage 4s ease-in-out infinite;
