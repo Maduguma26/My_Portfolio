@@ -2,6 +2,8 @@
 
 Welcome to the source code of my personal portfolio website! This project showcases my background, technical skills, certifications, experience, and contact information. It's designed to give recruiters and potential collaborators a quick overview of who I am and what I bring to the table.
 
+
+
 📌 Overview
 
 👉 This is a responsive, multi-section portfolio built with HTML, CSS, and Font Awesome icons. It features:
@@ -13,6 +15,8 @@ Welcome to the source code of my personal portfolio website! This project showca
 👉 CV download option
 
 👉 Sections for About, Experience, Education, Skills, Certifications, and Contact
+
+
 
 🛠️ Technologies Used
 
@@ -26,9 +30,12 @@ Welcome to the source code of my personal portfolio website! This project showca
 
 👉 Hosted images and PDF assets
 
+
+
 🧑‍💻 Author
 
 👉 Konanani Maduguma
+
 
 
 📷 Preview
@@ -36,9 +43,12 @@ Welcome to the source code of my personal portfolio website! This project showca
 
 
 
+
 🔗 Live Demo
 
 👉 Live Demo : https://maduguma26.github.io/My_Portfolio/
+
+
 
 📜 License
 This project is open source and available under the MIT License.
